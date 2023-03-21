@@ -1,0 +1,14 @@
+{
+  "name": "gmail-link-bookmarklet",
+  "version": "1.0.0",
+  "description": "Easily generate a reliable link to a specific email in a particular inbox",
+  "author": {
+    "name": "Seth Battis",
+    "email": "sbattis@groton.org"
+  },
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@battis/prettier-config": "github:battis/prettier-config"
+  },
+  "prettier": "@battis/prettier-config"
+}
