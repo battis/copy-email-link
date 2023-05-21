@@ -1,0 +1,1 @@
+(()=>{"use strict";(()=>{var e;const n=null===(e=document.querySelector(".gb_Ab"))||void 0===e?void 0:e.nextElementSibling,t=n&&n.innerText?n.innerText:"0";navigator.clipboard.writeText(window.location.href.replace(/(\/u\/0)\/.*\/(.+$)/,`/u/${t}/#all/$2`))})()})();
