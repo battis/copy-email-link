@@ -11,7 +11,7 @@
   message.id = id;
   message.setAttribute(
     'style',
-    'position: absolute; z-index: 100; right: 1em; top: 1em; background: lightgoldenrodyellow; border: solid 1px goldenrod; border-radius: 0.5em; padding: 0.5em;'
+    'position: absolute; top: 1em; right: 1em; padding: 1em; background: lightgoldenrodyellow; color: darkgoldenrod; border-radius: 0.5em; border: solid 1px goldenrod; z-index:100000;'
   );
   message.innerText = `Copied message link to "${subject}" to  clipboard`;
   document.body.append(message);
