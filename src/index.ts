@@ -7,7 +7,7 @@
   );
   const id = `notification-${crypto.randomUUID()}`;
   const message = document.createElement('div');
-  const subject = (document.querySelector('#:1s') as HTMLElement).innerText;
+  const subject = (document.querySelector('.ha .hP') as HTMLElement).innerText;
   message.id = id;
   message.setAttribute(
     'style',
