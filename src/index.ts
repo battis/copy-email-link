@@ -1,3 +1,5 @@
+import './styles.scss';
+
 (() => {
   const emailElt = document.querySelector('.gb_Ab')
     ?.nextElementSibling as HTMLElement;
@@ -9,10 +11,7 @@
   const message = document.createElement('div');
   const subject = (document.querySelector('.ha .hP') as HTMLElement).innerText;
   message.id = id;
-  message.setAttribute(
-    'style',
-    'position: absolute; top: 1em; right: 1em; padding: 1em; background: lightgoldenrodyellow; color: darkgoldenrod; border-radius: 0.5em; border: solid 1px goldenrod; z-index:100000;'
-  );
+  message.className = 'message';
   message.innerText = `Copied message link to "${subject}" to  clipboard`;
   document.body.append(message);
   setTimeout(() => document.body.querySelector(`#${id}`)?.remove(), 1000);
