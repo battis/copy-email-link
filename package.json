@@ -12,12 +12,12 @@
     "url": "git:https://github.com/groton-school/gmail-link-bookmarklet.git"
   },
   "scripts": {
-    "build": "npx webpack"
+    "build": "webpack"
   },
   "devDependencies": {
-    "@battis/eslint-config": "github:battis/eslint-config",
-    "@battis/prettier-config": "github:battis/prettier-config",
-    "@battis/webpack": "github:battis/webpack"
+    "@battis/eslint-config": "latest",
+    "@battis/prettier-config": "latest",
+    "@battis/webpack": "latest"
   },
   "prettier": "@battis/prettier-config",
   "eslintConfig": {
