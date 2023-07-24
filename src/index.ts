@@ -1,8 +1,9 @@
 import './styles.scss';
 
 (() => {
-  const emailElt = document.querySelector('.gb_Ec div:not(.gb_Eb):last-child') as HTMLElement;
-  const email = emailElt && emailElt.innerText ? emailElt.innerText : '0';
+  const emailElt = document.querySelector('.gb_d.gb_Ha.gb_x') as HTMLElement;
+  const match = emailElt.ariaLabel?.match(/\((.+)\)$/);
+  const email = match && match.length > 1 ? match[1] : '0';
   navigator.clipboard.writeText(
     window.location.href.replace(/(\/u\/0)\/.*\/(.+$)/, `/u/${email}/#all/$2`)
   );
