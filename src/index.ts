@@ -1,9 +1,7 @@
 import './styles.scss';
 
 (() => {
-  const emailElt = document.querySelector('.gb_d.gb_Ha.gb_x') as HTMLElement;
-  const match = emailElt.ariaLabel?.match(/\((.+)\)$/);
-  const email = match && match.length > 1 ? match[1] : '0';
+  const email = (window as unknown as { GLOBALS: string[] }).GLOBALS[10];
   navigator.clipboard.writeText(
     window.location.href.replace(/(\/u\/0)\/.*\/(.+$)/, `/u/${email}/#all/$2`)
   );
