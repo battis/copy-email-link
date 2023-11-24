@@ -1,7 +1,7 @@
 {
   "name": "gmail-link-bookmarklet",
   "version": "1.0.0",
-  "description": "Easily generate a reliable link to a specific email in a particular inbox",
+  "description": "Easily generate a reliable link to a specific email thread in a particular inbox",
   "author": {
     "name": "Seth Battis",
     "email": "sbattis@groton.org"
@@ -16,8 +16,7 @@
   },
   "devDependencies": {
     "@battis/eslint-config": "latest",
-    "@battis/prettier-config": "latest",
-    "@battis/webpack": "latest"
+    "@battis/prettier-config": "latest"
   },
   "prettier": "@battis/prettier-config",
   "eslintConfig": {
@@ -26,5 +25,8 @@
       "browser": true,
       "node": true
     }
+  },
+  "dependencies": {
+    "chrome-types": "^0.1.246"
   }
 }

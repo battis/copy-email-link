@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Copy Gmail Link",
+  "description": "Easily generate a reliable link to a specific email thread in a particular inbox",
+  "version": "2.0",
+  "icons": {
+    "32": "images/logo-32px.png",
+    "48": "images/logo-48px.png",
+    "128": "images/logo-128px.png"
+  },
+  "action": {
+    "default_icon": "images/logo.png"
+  },
+  "permissions": ["activeTab", "identity", "identity.email", "notifications"],
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["scripts/content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "background": {
+    "service_worker": "scripts/service_worker.js"
+  }
+}
