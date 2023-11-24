@@ -1,15 +1,17 @@
 {
   "manifest_version": 3,
-  "name": "Copy Gmail Link",
+  "name": "Copy Email Link",
   "description": "Easily generate a reliable link to a specific email thread in a particular inbox",
   "version": "2.0",
+  "author": "Seth Battis",
   "icons": {
-    "32": "images/logo-32px.png",
-    "48": "images/logo-48px.png",
-    "128": "images/logo-128px.png"
+    "16": "assets/images/logo-16px.png",
+    "32": "assets/images/logo-32px.png",
+    "48": "assets/images/logo-48px.png",
+    "128": "assets/images/logo-128px.png"
   },
   "action": {
-    "default_icon": "images/logo.png"
+    "default_icon": "assets/images/logo-128px.png"
   },
   "permissions": ["activeTab", "identity", "identity.email", "notifications"],
   "content_scripts": [

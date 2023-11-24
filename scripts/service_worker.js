@@ -4,7 +4,7 @@ chrome.action.onClicked.addListener(async (tab) => {
       chrome.tabs.sendMessage(tab.id, info.email, {}, (subject) => {
         chrome.notifications.create({
           type: 'basic',
-          iconUrl: chrome.runtime.getURL('images/logo-32px.png'),
+          iconUrl: chrome.runtime.getURL('assets/images/logo-32px.png'),
           title: 'Copy Gmail Link',
           message: `Copied link to "${subject}" to  clipboard`
         });
