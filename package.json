@@ -14,7 +14,7 @@
   "scripts": {
     "build": "run-s build:*",
     "build:logo": "node bin/assets.mjs -t assets/images store/logo-assets/*",
-    "build:zip": "node bin/prepare.mjs assets manifest.json scripts"
+    "build:zip": "node bin/prepare.mjs manifest.json assets scripts"
   },
   "devDependencies": {
     "@battis/eslint-config": "latest",
