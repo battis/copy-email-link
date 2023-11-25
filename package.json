@@ -4,12 +4,12 @@
   "description": "Easily generate a reliable link to a specific email thread in a particular inbox",
   "author": {
     "name": "Seth Battis",
-    "email": "sbattis@groton.org"
+    "url": "https://github.com/batts"
   },
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git:https://github.com/groton-school/gmail-link-bookmarklet.git"
+    "url": "git:https://github.com/battis/copy-email-link.git"
   },
   "scripts": {
     "build": "run-s build:*",
