@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       chrome-types:
-        specifier: ^0.1.246
-        version: 0.1.246
+        specifier: ^0.1.324
+        version: 0.1.324
     devDependencies:
       '@battis/eslint-config':
-        specifier: latest
+        specifier: ^2.0
         version: 2.0.1(@eslint/js@8.57.0)(eslint-config-prettier@8.10.0(eslint@8.57.0))(eslint-plugin-html@7.1.0)(eslint-plugin-markdown@3.0.1(eslint@8.57.0))(eslint@8.57.0)(globals@13.23.0)(typescript-eslint@8.18.0(eslint@8.57.0)(typescript@5.5.3))(typescript@5.5.3)
       '@battis/prettier-config':
-        specifier: latest
+        specifier: ^1.0
         version: 1.5.5(typescript@5.5.3)
       '@battis/qui-cli':
         specifier: ^0.8.4
@@ -499,8 +499,8 @@ packages:
   chevrotain@7.1.1:
     resolution: {integrity: sha512-wy3mC1x4ye+O+QkEinVJkPf5u2vsrDIYW9G7ZuwFl6v/Yu0LwUuT2POsb+NUWApebyxfkQq6+yDfRExbnI5rcw==}
 
-  chrome-types@0.1.246:
-    resolution: {integrity: sha512-nX4M3ISvRnx/Dt3fdfTjLQaCiWwKoVUc+eaEjmURTR+47YJ5E82MQozFOsqV/U4QG+4+hNHdAwj53NtBGOitUw==}
+  chrome-types@0.1.324:
+    resolution: {integrity: sha512-jJmNEWAS+lMY2TvUB9tdk1mpMlzctbgTAJFp+DlI71Ol5nk1EK+O4Mn7/EUVIXTdnMkxRcF5ujSMP7BU8qCdJA==}
 
   cli-cursor@4.0.0:
     resolution: {integrity: sha512-VGtlMu3x/4DOtIUwEkRezxUZ2lBacNJCHash0N0WeZDBS+7Ux1dm3XWAgWYxLJFMMdOeXMHXorshEFhbMSGelg==}
@@ -898,10 +898,6 @@ packages:
 
   ieee754@1.2.1:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
-
-  ignore@5.3.0:
-    resolution: {integrity: sha512-g7dmpshy+gD7mh88OC9NwSGTKoc3kyLAZQRU1mt53Aw/vnvfXnbC+F/7F7QoYVKbV+KNvJx8wArewKy1vXMtlg==}
-    engines: {node: '>= 4'}
 
   ignore@5.3.2:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
@@ -1951,7 +1947,7 @@ snapshots:
       debug: 4.3.4
       espree: 9.6.1
       globals: 13.23.0
-      ignore: 5.3.0
+      ignore: 5.3.2
       import-fresh: 3.3.0
       js-yaml: 4.1.0
       minimatch: 3.1.2
@@ -2389,7 +2385,7 @@ snapshots:
     dependencies:
       regexp-to-ast: 0.5.0
 
-  chrome-types@0.1.246: {}
+  chrome-types@0.1.324: {}
 
   cli-cursor@4.0.0:
     dependencies:
@@ -2643,7 +2639,7 @@ snapshots:
       glob-parent: 6.0.2
       globals: 13.23.0
       graphemer: 1.4.0
-      ignore: 5.3.0
+      ignore: 5.3.2
       imurmurhash: 0.1.4
       is-glob: 4.0.3
       is-path-inside: 3.0.3
@@ -2850,8 +2846,6 @@ snapshots:
       safer-buffer: 2.1.2
 
   ieee754@1.2.1: {}
-
-  ignore@5.3.0: {}
 
   ignore@5.3.2: {}
 

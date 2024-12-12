@@ -25,6 +25,6 @@
   },
   "prettier": "@battis/prettier-config",
   "dependencies": {
-    "chrome-types": "^0.1.246"
+    "chrome-types": "^0.1.324"
   }
 }
