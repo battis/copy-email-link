@@ -17,7 +17,7 @@
     "build:zip": "node bin/prepare.mjs manifest.json assets scripts"
   },
   "devDependencies": {
-    "@battis/eslint-config": "^2.0.1",
+    "@battis/eslint-config": "^2.0.3",
     "@battis/prettier-config": "^1.5.5",
     "@battis/qui-cli": "^0.8.5",
     "archiver": "^7.0.1",
