@@ -1,18 +1,16 @@
 import fs from 'fs';
 import archiver from 'archiver';
 import cli from '@battis/qui-cli';
-import path from 'path';
+import path from 'node:path';
 
-const args = cli.init({
-  args: {
-    options: {
+const args = await cli.init({
+    opt: {
       target: {
         short: 't',
         description: 'Target name for archive file',
         default: 'store/extension.zip'
       }
     }
-  }
 });
 
 const zip = fs.createWriteStream(path.resolve(args.values.target));
